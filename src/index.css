@@ -1,0 +1,44 @@
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.demo__title {
+	padding-top: 1em;
+	font-size: 1.6rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.demo__desc {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 4em;
+	font-weight: 100;
+	font-size: 0.95rem;
+	letter-spacing: 1px;
+	text-align: center;
+	color: hsla(0, 0%, 100%, 0.8);
+}
+
+.demo__form {
+	padding: 0 4em;
+	margin-bottom: 4em;
+}
+
+.demo__form > div {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
